@@ -13,11 +13,10 @@ Checkar vilka delar som jag tycker ser ut att behöva ses över.
 
 Efter att ha tittat genom koden kommer jag nu börja sätta upp tester,
 som jag kan provskjuta mot koden kontinuerligt och som testar av de olika scenarion, 
-
 Jag kommer använda datumen som fanns nedskrivna på postitlappen, som testdata.
 
 Jag ska implementera en REST api endpoint så att man kan nå applikationen med olika inputs via http.
 
-Omstrukturerar koden. 
+Rättar buggar och omstrukturerar koden. 
 
 Om jag hade fortsatt så hade jag förlagt taxeringsregler i en databas och gjort logiken för avläsning gentemot taxeringsregler mer generisk för att kunna hantera olika data. 
