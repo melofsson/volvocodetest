@@ -20,7 +20,6 @@ public class CongestionTaxCalculatorApplication {
 	@GetMapping("/tax")
 	public int simpleRequest(@RequestParam String vehicleType,
 								@RequestParam String[] dates) {
-		// In this case, we return the plain text response "ok"
 		Date[] parsedDates = DataParser.getDatesFromStrings(dates);
 		CongestionTaxCalculator taxCalculator = new CongestionTaxCalculator();
 		return taxCalculator.getTax(vehicleType, parsedDates);
