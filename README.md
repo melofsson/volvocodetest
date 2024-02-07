@@ -1,7 +1,34 @@
 # Congestion Tax Calculator
 
-Welcome the Volvo Cars Congestion Tax Calculator assignment.
+## Run code 
+* Using maven
+* Java 17
 
-This repository contains a developer [assignment](ASSIGNMENT.md) used as a basis for candidate intervew and evaluation.
+Run:
 
-Clone this repository to get started. Due to a number of reasons, not least privacy, you will be asked to zip your solution and mail it in, instead of submitting a pull-request. In order to maintain an unbiased reviewing process, please ensure to **keep your name or other Personal Identifiable Information (PII) from the code**.
+<code>mvn clean compile package && java -jar ./target/congestion-tax-calculator-0.0.1-SNAPSHOT.jar;</code>
+
+
+*****
+## Test application 
+
+Perform request towards GET endpoint
+
+http://localhost:8080/tax
+
+
+QueryParams:
+
+vehicleType: String
+
+dates: String[]
+
+
+
+
+EXAMPLE:
+
+http://localhost:8080/tax?vehicleType=Car&dates=2013-02-08%2016:48:00&dates=2013-02-08%2017:49:00
+
+*******
+
