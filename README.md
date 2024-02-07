@@ -32,3 +32,7 @@ http://localhost:8080/tax?vehicleType=Car&dates=2013-02-08%2016:48:00&dates=2013
 
 *******
 
+Read my [priorities](https://github.com/melofsson/volvocodetest/blob/main/priorities.md)
+
+Read my [questions](https://github.com/melofsson/volvocodetest/blob/main/questions.md)
+
